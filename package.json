@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-log2",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Binary logarithm (base 2).",
   "license": "Apache-2.0",
   "author": {
