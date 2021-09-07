@@ -112,6 +112,24 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/exp2`][@stdlib/math/base/special/exp2]: base 2 exponential function.
+-   [`@stdlib/math/base/special/ln`][@stdlib/math/base/special/ln]: natural logarithm.
+-   [`@stdlib/math/base/special/log`][@stdlib/math/base/special/log]: base `b` logarithm.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -168,6 +186,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-log2/main/LICENSE
 
 [binary-logarithm]: https://en.wikipedia.org/wiki/Binary_logarithm
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2
+
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+
+[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log
+
+<!-- </related-links> -->
 
 </section>
 
