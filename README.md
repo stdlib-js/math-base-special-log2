@@ -55,6 +55,8 @@ Alternatively,
 -   If you are using Deno, visit the [`deno` branch][deno-url].
 -   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
 
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
 </section>
 
 <section class="usage">
@@ -153,11 +155,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
@@ -199,8 +196,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/math-base-special-log2/tree/deno
 [umd-url]: https://github.com/stdlib-js/math-base-special-log2/tree/umd
 [esm-url]: https://github.com/stdlib-js/math-base-special-log2/tree/esm
-
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-log2/main/LICENSE
+[branches-url]: https://github.com/stdlib-js/math-base-special-log2/blob/main/branches.md
 
 [binary-logarithm]: https://en.wikipedia.org/wiki/Binary_logarithm
 
