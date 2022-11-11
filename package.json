@@ -39,6 +39,8 @@
   },
   "dependencies": {
     "@stdlib/constants-float64-exponent-bias": "^0.0.x",
+    "@stdlib/constants-float64-high-word-abs-mask": "^0.0.x",
+    "@stdlib/constants-float64-high-word-significand-mask": "^0.0.x",
     "@stdlib/constants-float64-ninf": "^0.0.x",
     "@stdlib/math-base-assert-is-nan": "^0.0.x",
     "@stdlib/number-float64-base-get-high-word": "^0.0.x",
