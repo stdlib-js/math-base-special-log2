@@ -41,19 +41,30 @@ The [binary logarithm][binary-logarithm] (logarithm with base 2) is defined for 
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-log2
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import log2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log2@esm/index.mjs';
-```
-The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-log2/tags). For example,
-
-```javascript
-import log2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log2@v0.0.7-esm/index.mjs';
+var log2 = require( '@stdlib/math-base-special-log2' );
 ```
 
 #### log2( x )
@@ -91,15 +102,10 @@ var v = log2( -4.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
-import log2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log2@esm/index.mjs';
+```javascript
+var randu = require( '@stdlib/random-base-randu' );
+var round = require( '@stdlib/math-base-special-round' );
+var log2 = require( '@stdlib/math-base-special-log2' );
 
 var x;
 var i;
@@ -108,10 +114,6 @@ for ( i = 0; i < 100; i++ ) {
     x = round( randu() * 100.0 );
     console.log( 'log2(%d) = %d', x, log2( x ) );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -143,7 +145,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -168,8 +170,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-log2.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-log2
 
-[test-image]: https://github.com/stdlib-js/math-base-special-log2/actions/workflows/test.yml/badge.svg?branch=v0.0.7
-[test-url]: https://github.com/stdlib-js/math-base-special-log2/actions/workflows/test.yml?query=branch:v0.0.7
+[test-image]: https://github.com/stdlib-js/math-base-special-log2/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-base-special-log2/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-log2/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-log2?branch=main
@@ -200,11 +202,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2/tree/esm
+[@stdlib/math/base/special/exp2]: https://github.com/stdlib-js/math-base-special-exp2
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/esm
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
 
-[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log/tree/esm
+[@stdlib/math/base/special/log]: https://github.com/stdlib-js/math-base-special-log
 
 <!-- </related-links> -->
 
