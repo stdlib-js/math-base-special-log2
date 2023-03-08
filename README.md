@@ -30,10 +30,14 @@ The [binary logarithm][binary-logarithm] (logarithm with base 2) is defined for 
 
 <!-- <equation class="equation" label="eq:binary_logarithm" align="center" raw="\quad \log_{2} \left( x \right) = y \quad \text{such that} \quad 2^y = x" alt="Equation for the binary logarithm."> -->
 
-<div class="equation" align="center" data-raw-text="\quad \log_{2} \left( x \right) = y \quad \text{such that} \quad 2^y = x" data-equation="eq:binary_logarithm">
+```math
+\quad \log_{2} \left( x \right) = y \quad \text{such that} \quad 2^y = x
+```
+
+<!-- <div class="equation" align="center" data-raw-text="\quad \log_{2} \left( x \right) = y \quad \text{such that} \quad 2^y = x" data-equation="eq:binary_logarithm">
     <img src="https://cdn.jsdelivr.net/gh/stdlib-js/stdlib@8cb4d022f6163be6523964802725ed2a74f2497b/lib/node_modules/@stdlib/math/base/special/log2/docs/img/equation_binary_logarithm.svg" alt="Equation for the binary logarithm.">
     <br>
-</div>
+</div> -->
 
 <!-- </equation> -->
 
@@ -184,7 +188,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
