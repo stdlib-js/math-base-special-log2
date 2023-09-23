@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-log2",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Binary logarithm (base 2).",
   "license": "Apache-2.0",
   "author": {
@@ -38,27 +38,27 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-exponent-bias": "^0.0.8",
-    "@stdlib/constants-float64-high-word-abs-mask": "^0.0.1",
-    "@stdlib/constants-float64-high-word-significand-mask": "^0.0.8",
-    "@stdlib/constants-float64-ninf": "^0.0.8",
-    "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/number-float64-base-get-high-word": "^0.0.6",
-    "@stdlib/number-float64-base-set-high-word": "^0.0.6",
-    "@stdlib/number-float64-base-set-low-word": "^0.0.6",
-    "@stdlib/number-float64-base-to-words": "^0.0.7"
+    "@stdlib/constants-float64-exponent-bias": "^0.1.0",
+    "@stdlib/constants-float64-high-word-abs-mask": "^0.1.0",
+    "@stdlib/constants-float64-high-word-significand-mask": "^0.1.0",
+    "@stdlib/constants-float64-ninf": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/number-float64-base-get-high-word": "^0.1.0",
+    "@stdlib/number-float64-base-set-high-word": "^0.1.0",
+    "@stdlib/number-float64-base-set-low-word": "^0.1.0",
+    "@stdlib/number-float64-base-to-words": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/constants-float64-eps": "^0.0.8",
-    "@stdlib/constants-float64-pinf": "^0.0.8",
-    "@stdlib/fs-write-file": "^0.0.8",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/constants-float64-eps": "^0.1.0",
+    "@stdlib/constants-float64-pinf": "^0.1.0",
+    "@stdlib/fs-write-file": "^0.1.0",
     "@stdlib/math-base-special-abs": "^0.0.6",
     "@stdlib/math-base-special-pow": "^0.0.7",
-    "@stdlib/math-base-special-round": "^0.0.7",
+    "@stdlib/math-base-special-round": "^0.1.0",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.0.8",
     "@stdlib/random-base-randu": "^0.0.8",
-    "@stdlib/time-current-year": "^0.0.2",
+    "@stdlib/time-current-year": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
