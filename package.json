@@ -61,7 +61,7 @@
     "@stdlib/math-base-tools-evalpoly-compile": "^0.2.1",
     "@stdlib/math-base-tools-evalpoly-compile-c": "^0.1.1",
     "@stdlib/random-base-randu": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1",
     "@stdlib/string-substring-after": "^0.2.1",
     "@stdlib/string-substring-before": "^0.2.1",
     "@stdlib/time-current-year": "^0.2.1",
