@@ -1,14 +1,6 @@
-"use strict";var n=function(r,a){return function(){return a||r((a={exports:{}}).exports,a),a.exports}};var l=n(function(U,_){
-function M(r){return r===0?.3999999999940942:.3999999999940942+r*(.22222198432149784+r*.15313837699209373)}_.exports=M
-});var A=n(function(Y,N){
-function W(r){return r===0?.6666666666666735:.6666666666666735+r*(.2857142874366239+r*(.1818357216161805+r*.14798198605116586))}N.exports=W
-});var p=n(function(Z,c){
-var L=require('@stdlib/number-float64-base-get-high-word/dist'),O=l(),d=A(),g=1048575,D=.3333333333333333;function E(r){var a,f,v,u,e,t,i,s,o,I,H;return u=L(r),e=r-1,(g&2+u)<3?e===0?0:e*e*(D*e-.5):(t=e/(2+e),i=t*t,u&=g,I=u-398458|0,o=i*i,H=440401-u|0,f=o*O(o),v=i*d(o),I|=H,s=v+f,I>0?(a=.5*e*e,t*(a+s)-a):t*(s-e))}c.exports=E
-});var G=n(function($,h){
-var R=require('@stdlib/number-float64-base-get-high-word/dist'),y=require('@stdlib/number-float64-base-set-high-word/dist'),P=require('@stdlib/number-float64-base-set-low-word/dist'),X=require('@stdlib/number-float64-base-to-words/dist'),k=require('@stdlib/math-base-assert-is-nan/dist'),B=require('@stdlib/constants-float64-high-word-abs-mask/dist'),F=require('@stdlib/constants-float64-high-word-significand-mask/dist'),K=require('@stdlib/constants-float64-exponent-bias/dist'),w=require('@stdlib/constants-float64-ninf/dist'),C=p(),T=0x40000000000000,S=1.4426950407214463,V=16751713164886512e-26,b=2146435072,j=1048576,z=1072693248,q=[0,0];function Q(r){var a,f,v,u,e,t,i;if(k(r)||r<0)return NaN;if(X.assign(r,q,1,0),v=q[0],u=q[1],i=0,v<j){if(!(v&B|u))return w;i-=54,r*=T,v=R(r)}return v>=b?r+r:(i+=(v>>20)-K|0,v&=F,t=v+614244&1048576|0,r=y(r,v|t^z),i+=t>>20|0,e=C(r),r-=1,a=P(r,0),f=r-a,(r+e)*V+(f+e)*S+a*S+i)}h.exports=Q
-});var m=G();module.exports=m;
-/** @license Apache-2.0 */
-/** @license Apache-2.0 */
+"use strict";var S=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var l=S(function(F,g){
+var M=require('@stdlib/number-float64-base-get-high-word/dist'),W=require('@stdlib/number-float64-base-set-high-word/dist'),h=require('@stdlib/number-float64-base-set-low-word/dist'),G=require('@stdlib/number-float64-base-to-words/dist'),O=require('@stdlib/math-base-assert-is-nan/dist'),d=require('@stdlib/constants-float64-high-word-abs-mask/dist'),E=require('@stdlib/constants-float64-high-word-significand-mask/dist'),R=require('@stdlib/constants-float64-exponent-bias/dist'),X=require('@stdlib/constants-float64-ninf/dist'),c=require('@stdlib/math-base-special-kernel-log1p/dist'),p=0x40000000000000,N=1.4426950407214463,B=16751713164886512e-26,D=2146435072,A=1048576,L=1072693248,_=[0,0];function P(r){var e,t,o,a,I,v,f,i,n,s,q,H,u;if(O(r)||r<0)return NaN;if(G.assign(r,_,1,0),a=_[0],I=_[1],u=0,a<A){if(!(a&d|I))return X;u-=54,r*=p,a=M(r)}return a>=D?r+r:a===L&&I===0?0:(u+=(a>>20)-R|0,a&=E,H=a+614244&A|0,r=W(r,a|H^L),u+=H>>20|0,q=u,i=r-1,o=.5*i*i,n=c(i),v=i-o,v=h(v,0),f=i-v-o+n,e=v*N,t=(f+v)*B+f*N,s=q+e,t+=q-s+e,e=s,t+e)}g.exports=P
+});var k=l();module.exports=k;
 /** @license Apache-2.0 */
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
