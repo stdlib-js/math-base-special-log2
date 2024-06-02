@@ -47,7 +47,7 @@
     "@stdlib/constants-float64-ninf": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.1",
     "@stdlib/math-base-napi-unary": "^0.2.1",
-    "@stdlib/math-base-special-kernel-log1p": "github:stdlib-js/math-base-special-kernel-log1p#main",
+    "@stdlib/math-base-special-kernel-log1p": "^0.0.1",
     "@stdlib/number-float64-base-get-high-word": "^0.2.1",
     "@stdlib/number-float64-base-set-high-word": "^0.2.1",
     "@stdlib/number-float64-base-set-low-word": "^0.2.1",
