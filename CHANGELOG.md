@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`bb378ff`](https://github.com/stdlib-js/stdlib/commit/bb378ffa3c07f4acce9504440d26db9d2d97e091) - **docs:** replace manual `for` loop in examples [(#6472)](https://github.com/stdlib-js/stdlib/pull/6472) _(by Harsh)_
 -   [`2decebf`](https://github.com/stdlib-js/stdlib/commit/2decebfef3381b37b7c84ebe6c4e35792d685e1e) - **chore:** update package meta data [(#6447)](https://github.com/stdlib-js/stdlib/pull/6447) _(by stdlib-bot)_
 -   [`3a6a913`](https://github.com/stdlib-js/stdlib/commit/3a6a913fe41d3ffbbb4f73837fc6aa8396cdccce) - **bench:** update random value generation [(#6377)](https://github.com/stdlib-js/stdlib/pull/6377) _(by Harsh)_
