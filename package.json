@@ -51,7 +51,8 @@
     "@stdlib/number-float64-base-set-high-word": "^0.2.2",
     "@stdlib/number-float64-base-set-low-word": "^0.2.2",
     "@stdlib/number-float64-base-to-words": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
