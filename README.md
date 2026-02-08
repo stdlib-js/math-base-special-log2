@@ -63,7 +63,7 @@ The [binary logarithm][binary-logarithm] (logarithm with base 2) is defined for 
 ## Usage
 
 ```javascript
-import log2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log2@deno/mod.js';
+import log2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log2@v0.3.1-deno/mod.js';
 ```
 
 #### log2( x )
@@ -104,7 +104,7 @@ var v = log2( -4.0 );
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import log2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log2@deno/mod.js';
+import log2 from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log2@v0.3.1-deno/mod.js';
 
 var opts = {
     'dtype': 'float64'
