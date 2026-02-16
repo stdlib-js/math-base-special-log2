@@ -47,25 +47,25 @@
     "@stdlib/math-base-assert-is-nan": "^0.2.3",
     "@stdlib/math-base-napi-unary": "^0.2.7",
     "@stdlib/math-base-special-kernel-log1p": "^0.0.3",
-    "@stdlib/number-float64-base-get-high-word": "^0.2.2",
+    "@stdlib/number-float64-base-get-high-word": "^0.2.3",
     "@stdlib/number-float64-base-set-high-word": "^0.2.3",
     "@stdlib/number-float64-base-set-low-word": "^0.2.3",
-    "@stdlib/number-float64-base-to-words": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.3"
+    "@stdlib/number-float64-base-to-words": "^0.2.3",
+    "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
-    "@stdlib/console-log-each-map": "^0.1.0",
+    "@stdlib/console-log-each-map": "^0.1.1",
     "@stdlib/constants-float64-eps": "^0.2.3",
     "@stdlib/constants-float64-pinf": "^0.2.3",
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.3",
     "@stdlib/math-base-special-abs": "^0.2.3",
-    "@stdlib/random-array-discrete-uniform": "^0.2.1",
-    "@stdlib/random-array-uniform": "^0.2.1",
+    "@stdlib/random-array-discrete-uniform": "^0.2.2",
+    "@stdlib/random-array-uniform": "^0.2.2",
     "@stdlib/utils-try-require": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
