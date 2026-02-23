@@ -51,7 +51,8 @@
     "@stdlib/number-float64-base-set-high-word": "^0.2.3",
     "@stdlib/number-float64-base-set-low-word": "^0.2.3",
     "@stdlib/number-float64-base-to-words": "^0.2.3",
-    "@stdlib/utils-library-manifest": "^0.2.4"
+    "@stdlib/utils-library-manifest": "^0.2.4",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/console-log-each-map": "^0.1.1",
